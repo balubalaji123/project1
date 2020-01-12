@@ -1,0 +1,15 @@
+/* i{
+    width:150px;
+
+} */
+.heading h1{
+    /* text-align: center; */
+    margin-left: 40%;
+    margin-right:36%;
+    padding: 0%;
+    color: rgb(71, 199, 12);
+    /* text-decoration: underline; */
+    /* border:2px; */
+    border-bottom-width: 1px; 
+    border-bottom-style: solid;
+}

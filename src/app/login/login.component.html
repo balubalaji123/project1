@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link href="https://fonts.googleapis.com/css?family=Montaga
+        &display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="login"><br><br>
+<div class="a">
+    <p style="text-align:center;font-size:35px;font-family:'Montaga';color:WHITE;opacity:1;"><strong>LOG-IN</strong></p>
+    <div class="b"><form [formGroup]="registrationForm">
+    <h5>Enter Your Name:</h5>  
+    <input [class.is-invalid]="registrationForm.get('name').invalid && registrationForm.get('name').touched" type="text" formControlName="name" class="form-control"  style="width:49%;height:10%;" placeholder="balaji">
+    <small [class.d-none]="registrationForm.get('name').valid||registrationForm.get('name').untouched" class="text-danger"> Name is required</small><br>
+    <h5>Enter Your Date of birth:</h5> 
+    <input [class.is-invalid]="registrationForm.get('dob').invalid && registrationForm.get('dob').touched" type="text" formControlName="dob" class="form-control"  style="width:49%;height:10%;" type="date"   placeholder="27/12/2000">
+    <small [class.d-none]="registrationForm.get('dob').valid||registrationForm.get('dob').untouched" class="text-danger"> DOB is required</small><br>
+    <h5>Enter Your age:</h5>
+    <input [class.is-invalid]="registrationForm.get('age').invalid && registrationForm.get('age').touched" type="text" formControlName="age" class="form-control"  style="width:49%;height:10%;"  type="number"    placeholder="19">
+    <small [class.d-none]="registrationForm.get('age').valid||registrationForm.get('age').untouched" class="text-danger"> Age is required</small><br>
+    <h5>Enter Your Email-id:</h5>
+    <input [class.is-invalid]="registrationForm.get('emailid').invalid && registrationForm.get('emailid').touched" type="text" formControlName="emailid" class="form-control"  style="width:49%;height:10%;" type="email"  placeholder="abc@gmail.com">
+    <small [class.d-none]="registrationForm.get('emailid').valid||registrationForm.get('emailid').untouched" class="text-danger"> Email-id is required</small><br>
+    <h5>Enter Your Password:</h5>
+    <input [class.is-invalid]="registrationForm.get('password').invalid && registrationForm.get('password').touched" type="text" formControlName="password" class="form-control"  style="width:49%;height:10%;"  type="password" placeholder="Enter Your Password">
+    <small [class.d-none]="registrationForm.get('password').valid||registrationForm.get('password').untouched" class="text-danger"> Password is required</small><br>
+    <h5>Confirm Your Password:</h5>
+    <input  [class.is-invalid]="registrationForm.errors?.misMatch" type="text" formControlName="confirmpassword" class="form-control"  style="width:49%;height:10%;" type="password"   placeholder="Re-enter your password">
+    <small class="text-danger" *ngIf="registrationForm.errors?.misMatch">passwords are not matched</small> <br>
+    <button type="submit" >Submit</button></form>
+     
+</div>
+</div>
+</div><br>
+
+    </body>
+    
+    </html>
+   <!-- <div class="log">
+    </div> -->
+    <!-- <div class="lg" style="background: opacity 0.3;">
+        <h1 style="text-align:center;;font-weight: 50px;">log in</h1>
+        <p style="margin-left: 2%;">Name:</p> -->
+    <!-- </div>
+    <div class="log2"> -->
+        
+        
+    <!-- </div>
+    <input type="text" placeholder="balaji">
+       -->
+      
+       
+  
+
+
+
+
+
+
+ <!-- <div class="log">
+         <img src="/assets/log2.jpg" style="width:100%;height:670px;opacity:1;"> -->
+       <!-- <div class="logo1">
+        <h1>su</h1>
+   </div>
+</div> -->
+    
+    <!-- <div class="log">
+        <h2>sdfjol</h2>
+    </div> -->

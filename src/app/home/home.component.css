@@ -1,0 +1,28 @@
+.name{
+   
+    font-family: Arial, Helvetica, sans-serif;
+   /* background-color: rgb(211, 211, 26);
+    color:rgb(231, 12, 12); */
+    text-decoration: none;
+    opacity: 1;
+    font-size: 30px;
+    margin-top: 0%;
+
+    /* padding: 1%; */
+}
+.carousel{
+    margin-left: 1.2%;
+    padding: 1%;
+}
+.carousel-inner img {
+    padding: 0%;
+   margin-top: 0%;
+} 
+.carousel-inner{
+    margin-top: -2.43%;
+    border-radius: 1 px solid black;
+}
+.container-fluid,.row,.col-sm-4{
+    /* padding: 1%; */
+    left: 2%;
+}

@@ -1,0 +1,45 @@
+.about img{
+    width:98%;
+    height:55%;
+}
+.about h5{
+    text-align: center;
+    color:crimson;
+     font-size: 31px; 
+    text-decoration: underline;
+}
+.about p{
+    text-align:center
+}
+.service h1{
+     margin-top: -6%;
+        text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: center;
+    
+  }
+  
+  li a {
+    display: block;
+    color: chocolate;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: blanchedalmond;
+    opacity: 0.6;
+    font-size: 20px;
+    /* color: azure; */
+    
+  }
